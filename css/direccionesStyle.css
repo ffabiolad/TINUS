@@ -1,0 +1,12 @@
+.contenedorFormulario{
+    background-color: gainsboro;
+    justify-content: center;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+

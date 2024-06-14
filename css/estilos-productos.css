@@ -1,0 +1,79 @@
+/*styles de efecto hover la card*/
+body {
+  background: url(https://i.ibb.co/Vt5T3bf/fondoprod.jpg);
+  background-repeat: repeat;
+  /*background: linear-gradient(70deg, rgba(41, 74, 48, 0.704), rgba(49, 111, 100, 0.646));*/
+}
+
+h1 {
+  color: #fff;
+  padding: 10px 0;
+  font-weight: lighter;
+  font-size: 50px;
+  
+}
+
+.descripcion{
+  width: 34ch;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(6, 7, 6, 0.2);
+  background-color: rgba(255, 255, 255, 0.811);
+  transition: 0.3s;
+  border: none;
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px 0 #060605;
+}
+
+.card a {
+  color: initial;
+}
+
+.card a:hover {
+  text-decoration: initial;
+}
+
+.card .text-muted i {
+  margin: 0 10px;
+}
+
+/*.card-img-top{
+  height: 60ch;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60ch 34ch;
+}*/
+/*styles de efecto hover en imagen*/
+
+.imagen{
+  cursor: pointer;
+  transition:.5s;
+  will-change: transform;
+
+}
+
+.imagen:hover{
+  transform: scale(1.05,1.05);
+  filter: brightness(120%);
+  -webkit-filter: brightness(110%);
+}
+
+/*. */
+
+.t-stroke {
+ color: transparent;
+ -moz-text-stroke-width: 2px;
+ -webkit-text-stroke-width: 2px;
+ -moz-text-stroke-color: #000000;
+ -webkit-text-stroke-color: #ffffff;
+}
+
+.t-shadow {
+ text-shadow: 7px 7px #27262679;
+}

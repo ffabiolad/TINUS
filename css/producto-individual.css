@@ -1,0 +1,103 @@
+body {
+    background: url(https://i.ibb.co/Vt5T3bf/fondoprod.jpg);
+    background-repeat: repeat;
+    /*background: linear-gradient(70deg, rgba(41, 74, 48, 0.704), rgba(49, 111, 100, 0.646));*/
+}
+  
+h1 {
+color: #fff;
+padding: 10px 0;
+}
+
+.descripcion{
+font-size: 20px;
+
+}
+
+.contenedorPrincipal{
+    padding: 30px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.precio{
+    font-size: 25px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.sectioncirc {
+    padding: 30px;
+    display: flex;
+    background-color: #ccc8c8;
+    justify-content: space-around;
+
+}
+
+.articlecirc {
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    width: 25px;
+    height: 25px;
+}
+
+.iconoTexto{
+    width: 100px;
+    height: auto;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(6, 7, 6, 0.2);
+    background-color: rgba(255, 255, 255, 0.811);
+    transition: 0.3s;
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 0 8px 24px 0 #060605;
+}
+
+.contenedorIconos{
+    display: flex;
+}
+
+.card .cardInvidivdual{
+    width: 100%;
+}
+
+.card-body .cardText{
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.imagen{
+    width: 100%;
+    border-top-left-radius: .4rem;
+    border-bottom-left-radius: .4rem;
+    border-top-right-radius: 0;
+}
+
+@media (max-width: 576px){
+    .imagen{
+        border-top-left-radius: .4rem;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: .4rem;
+    }
+}
